@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta http-equiv="content-language" content="zh-CN" />
+    <meta name="Keywords" content="张鑫，web前端开发工程师，简历" />
+    <meta name="Description" content="张鑫，web前端开发工程师个人简历简历" />
+    <title>张鑫-个人简历</title>
+    <meta name="applicable-device" content="pc,mobile">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script>
+        var PAGE_MAX_WIDTH = 640,
+            PAGE_MIN_WIDTH = 320,
+            BASE_FONT_SIZE = 32;
+        //在窗口各宽情况时，动态计算出html的font-size
+        !function () {
+            var DOC_ROOT_STYLE = document.documentElement.style;
+            var timer = null;
+            window.addEventListener('load', resizeFontSize);
+            window.addEventListener('resize', function () {
+                clearTimeout(timer);
+                if (document.documentElement.clientWidth >= PAGE_MIN_WIDTH) {
+                    timer = setTimeout(resizeFontSize, 0);
+                }
+            });
+            timer = setTimeout(resizeFontSize, 0);
+            resizeFontSize();
+
+            function resizeFontSize() {
+                DOC_ROOT_STYLE.fontSize = Math.min((document.documentElement.clientWidth) / PAGE_MAX_WIDTH * BASE_FONT_SIZE, BASE_FONT_SIZE) + 'px';
+            }
+        }();
+    </script>
+</head>
+<body>
+    <div class="home-outer">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide1">
+                    <div class="slide1-inner">
+                        <img src=".//img/tou.jpg" alt="">
+                        <h2>张鑫</h2>
+                        <h3>越努力，越幸运！</h3>
+                        <p>联系电话：18201882024</p>
+                        <p class="mail">邮箱：916769229@qq.com</p>
+                    </div>
+                </div>
+                <div class="swiper-slide slide slide2">
+                    <div class="slide2-inner">
+                        <div class="personal-des">进阶的前端工程师，熟悉 JavaScript 和 vue、小程序、快应用等前端框架。</div>
+                        <div class="personal-des">
+                            <p>生日：1992年11月1日</p>
+                            <p class="p1">性别：男</p>
+                            <p class="p2">籍贯：江苏连云港</p>
+                            <p class="p3">现居：上海静安区</p>
+                            <p class="p4">教育：中原工学院 信息与计算科学</p>
+                            <p class="p5">电话：18201882024</p>
+                            <p class="p6">邮箱：916769229@qq.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide slide3">
+                    <div class="slide3-inner">
+                        <p>期望薪资：15K-20K</p>
+                        <p>地点：上海</p>
+                        <p>职位：web前端开发工程师</p>
+                        <p>行业：计算机软件</p>
+                        <p>到岗时间：随时</p>
+                        <p>工作类型：全职</p>
+                    </div>
+                </div>
+                <div class="swiper-slide slide slide4">
+                    <ul>
+                        <li>
+                            <div class="li-inner li-inner1"></div>
+                        </li>
+                        <li>
+                            <div class="li-inner li-inner2"></div>
+                        </li>
+                        <li>
+                            <div class="li-inner li-inner3"></div>
+                        </li>
+                        <li>
+                            <div class="li-inner li-inner4"></div>
+                        </li>
+                        <li>
+                            <div class="li-inner li-inner5"></div>
+                        </li>
+                        <li>
+                            <div class="li-inner li-inner6"></div>
+                        </li>
+                        <li>
+                            <div class="li-inner li-inner7"></div>
+                        </li>
+                        <li>
+                            <div class="li-inner li-inner8"></div>
+                        </li>
+                    </ul>
+                    <div class="tech-des"></div>
+                </div>
+                <div class="swiper-slide slide slide5">
+                    <div class="slide5-inner">
+                        <ul class="slide5-inner-top">
+                            <li class="company-name">2018/12-至今&nbsp;上海可普乐网络科技有限公司</li>
+                            <li class="des-title">工作描述</li>
+                            <li>1.负责第二技术组的所有前端开发；</li>
+                            <li>2.页面适配移动端和PC端以及移动端的整套网页开发；</li>
+                        </ul>
+                        <ul class="slide5-inner-top">
+                            <li class="company-name">2017/8-2018/12&nbsp;上海新梨视网络科技有限公司</li>
+                            <li class="des-title">工作描述</li>
+                            <li>1.与产品，UI和后台协同作业；</li>
+                            <li>2.负责相关项目的维护以及优化工作；</li>
+                            <li>3.负责公司运营推广的H5活动页面以及相关新应用的开发和维护；</li>
+                        </ul>
+                        <ul class="slide5-inner-top">
+                            <li class="company-name">2015/5-2017/7&nbsp;上海成基计算机软件有限公司</li>
+                            <li class="des-title">工作描述</li>
+                            <li>1.与 UI，后台协作，完成网站的开发；</li>
+                            <li>2.响应式开发，页面兼容pc端和移动端；</li>
+                            <li>3.优化网站前端性能，对代码质量负责，按照要求实现前端页面的各种特效；</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="swiper-slide slide slide6">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper swiper-inner">
+                            <div class="swiper-slide inner-slide">
+                                <ul class="other-ul">
+                                    <li class="company-name">2018/3-2018/10&nbsp;梨视频快应用</li>
+                                    <li class="company-name">所属公司：上海新梨视网络科技有限公司</li>
+                                    <li class="company-name">项目描述：</li>
+                                    <li>快应用的优化进入，tab栏切换为：精选，本地，频道，报料四个tab，便于用户浏览时事新闻；</li>
+                                    <li class="company-name">责任描述：</li>
+                                    <li>1.与产品、UI设计和后台相互合作，实现整个快应用的开发；</li>
+                                    <li>2.根据快应用文档里的组件、样式规范和API，采用flexbox布局还原设计稿并实现逻辑需求；</li>
+                                    <li>3.完成线下的更新打包，协同市场部同事联系各大厂商进行提交审核并上架；</li>
+                                    <li>4.根据文档实现deeplink唤起快应用的功能，并完成卡片的开发，有助于快应用的推广；</li>
+                                </ul>
+                            </div>
+                            <div class="swiper-slide inner-slide">
+                                <ul class="other-ul">
+                                    <li class="company-name">2018/4-2018/5&nbsp;安卓免流量领取页面</li>
+                                    <li class="company-name">所属公司：上海新梨视网络科技有限公司</li>
+                                    <li class="company-name">项目描述：</li>
+                                    <li>嵌入在安卓端应用的领取梨视频流量的页面，用于用户的免流量看视频使用；可在安卓原生应用里查看；</li>
+                                    <li class="company-name">责任描述：</li>
+                                    <li>1.html+css+js还原设计稿，获取后台数据进行渲染；</li>
+                                    <li>2.根据不同的状态码展示不同阶段的页面；</li>
+                                    <li>3.与安卓开发联调，实现整个页面能正常运行并调用原生的返回等功能；</li>
+                                    <li>4.优化设计结构，并制作精灵图，实现流畅加载；</li>
+                                </ul>
+                            </div>
+                            <div class="swiper-slide inner-slide">
+                                <ul class="other-ul">
+                                    <li class="company-name">2018/1-2018/2&nbsp;运营推广后台管理系统</li>
+                                    <li class="company-name">所属公司：上海新梨视网络科技有限公司</li>
+                                    <li class="company-name">项目描述：</li>
+                                    <li>便于运营推广部门的日常管理和更新，包括广告位，日活量，外联稿件等</li>
+                                    <li class="company-name">责任描述：</li>
+                                    <li>1.运用Vue前端框架搭建整个项目；</li>
+                                    <li>2.结合elementUI和vuex，实现整个登录注册和主模块的开发；</li>
+                                    <li>3.配置路由，实现页面的跳转已经登录状态的判断与拦截；</li>
+                                    <li>4.容错页面的添加，保证整个项目的完整性；</li>
+                                    <li>5.日常运营的维护；</li>
+                                </ul>
+                            </div>
+                            <div class="swiper-slide inner-slide">
+                                <ul class="other-ul">
+                                    <li class="company-name">2018/6-2018/10&nbsp;梨视频小程序</li>
+                                    <li class="company-name">所属公司：上海新梨视网络科技有限公司</li>
+                                    <li class="company-name">项目描述：</li>
+                                    <li>tab栏切换为：精选，本地，频道，报料四个tab，便于用户浏览时事新闻</li>
+                                    <li class="company-name">责任描述：</li>
+                                    <li>1.与公司产品经理对接需求，并与UI设计和后台相互合作，实现整个快应用的开发；</li>
+                                    <li>2.根据小程序开发文档的规范，html+css还原设计稿的页面布局和样式；</li>
+                                    <li>3.调用小程序的API实现页面路由的跳转；</li>
+                                    <li>4.获取后台数据，用于页面的渲染并做好容错处理；</li>
+                                </ul>
+                            </div>
+                            <div class="swiper-slide inner-slide">
+                                <ul class="other-ul">
+                                    <li class="company-name">2017/8-2018/3&nbsp;运营推广-活动页</li>
+                                    <li class="company-name">所属公司：上海新梨视网络科技有限公司</li>
+                                    <li class="company-name">项目描述：</li>
+                                    <li>迎接七夕情人节，推广活动页面；<a href="http://www.pearvideo.com/h5/qixi2017/index.jsp">点击预览</a></li>
+                                    <li>涨知识页面；<a href="http://www.pearvideo.com/h5/knowledge/index.jsp?actId=3">点击预览</a></li>
+                                    <li>报料推广页面预览；<a href="http://www.pearvideo.com/h5/notes/index.jsp">点击预览</a></li>
+                                    <li class="company-name">责任描述：</li>
+                                    <li>1.与UI设计和后台相互合作，还原设计稿，并获取后台数据进行渲染；</li>
+                                    <li>2.适配pc端和移动端，rem布局实现自适应；</li>
+                                    <li>3.使用懒加载，精灵图等方法，减少请求次数，优化加载速度；</li>
+                                    <li>4.less语言编译样式，运用css3的特效使页面更丰富多彩，吸引用户注意以达到推广目的；</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination2"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide slide7">
+                    <div class="slide7-inner">
+                        <p class="title">2011年9月-2015年6月</p>
+                        <p class="title title-bottom">中原工学院</p>
+                        <p>学历：本科</p>
+                        <p>专业：信息与计算科学</p>
+                        <p>专业描述：主修应用数学以及信息与计算科学，并学习了c++计算机语言和运筹与最优化管理等课程，能从一个更加理性的思路寻求解决问题的最优途径。</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
